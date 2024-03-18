@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+</head>
+<body>
+
+<div class="container mt-3">
+    <div class="d-flex">
+        <div class="card" style="width:400px">
+            <img class="card-img-top" src="https://vegnews.com/media/W1siZiIsIjM0NDk1L1ZlZ05ld3MuSXNDb2tlVmVnYW4uS2Fyb2xpbmFHcmFib3dza2EuUGV4ZWxzLmpwZyJdLFsicCIsImNyb3BfcmVzaXplZCIsIjE1OTd4OTQ0KzErMCIsIjE2MDB4OTQ2XiIseyJmb3JtYXQiOiJqcGcifV0sWyJwIiwib3B0aW1pemUiXV0/VegNews.IsCokeVegan.KarolinaGrabowska.Pexels.jpg?sha=e1e9b27253ef0717" alt="Card image" style="width:100%">
+            <div class="card-body">
+                <h4 class="card-title">Coke</h4>
+                <p class="card-text">Price: $12.00</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container mt-3">
+    <form action="apni_kaksha_webpage.html" method="get">
+        <h1>Payment Form</h1>
+        <hr>
+        <h2>Contact Details:</h2>
+        <p>
+            Name: <input type="text" name="name">
+        </p>
+        <fieldset>
+            <legend>Gender</legend>
+            <p>
+                Male: <input type="radio" name="gender" id="Male">
+                Female: <input type="radio" name="gender" id="Female">
+            </p>
+        </fieldset>
+        <p>Address: <textarea name="address" id="address" cols="50" rows="5" placeholder="Fill the full address"></textarea></p>
+        <p>Email: <input type="email" name="email" id="email" placeholder="@gmail.com"></p>
+        <p>Pincode: <input type="text" name="pincode" id="pincode" maxlength="6" class="pin" placeholder="6 digit pin"></p>
+        <h2>Payment Information</h2>
+        <p>Card Type:
+            <select name="card_type" id="card_type">
+                <option value="">--Select a card type--</option>
+                <option value="visa">Visa</option>
+                <option value="ruypay">Rupay</option>
+                <option value="master_card">Master Card</option>
+            </select>
+        </p>
+        <p>Card Number: <input type="text" name="card_number" id="card_number" maxlength="16" class="card" placeholder="50--00---0---0--1252"></p>
+        <p>CVV: <input type="password" name="CVV" id="CVV" maxlength="3" placeholder="***"></p>
+        <a href="Logictics.html"><input type="button" value="Pay Now"></a>
+    </form>
+</div>
+
+</body>
+</html>
